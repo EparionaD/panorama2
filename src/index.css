@@ -26,4 +26,13 @@
   .modal-position {
     position: relative;
   }
+  .text-shadow-modal {
+    text-shadow: 5px 5px 8px black;
+  }
+}
+
+@layer base {
+  html {
+    font-family: 'Montserrat', sans-serif;
+  }
 }

@@ -30,6 +30,7 @@ const Point = ({ x, y, title, subtitle, img }) => {
       <Modal
         isOpen={isOpen}
         closeModal={closeModal}
+        title={title}
         subtitle={subtitle}
         img={img}
       />

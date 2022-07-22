@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
 
-const Modal = ({ img, subtitle, isOpen, closeModal }) => {
+const Modal = ({ img, title, subtitle, isOpen, closeModal }) => {
   return ReactDOM.createPortal(
     <article className={`modal ${isOpen && 'is-open'} rounded-lg`}>
       <div className='modal-container'>
@@ -13,9 +13,22 @@ const Modal = ({ img, subtitle, isOpen, closeModal }) => {
           >
             X
           </button>
-          <h1 className=' text-white font-black text-lg absolute top-3 left-3 z-50'>
-            {subtitle}
-          </h1>
+          <div className='flex flex-col absolute top-3 left-3 z-50'>
+            {title.startsWith('PLAT') ? (
+              <div>
+                <h1 className=' text-white font-black text-lg text-shadow-modal'>
+                  {title}
+                </h1>
+                <h1 className=' text-white font-black text-lg text-shadow-modal'>
+                  {subtitle}
+                </h1>
+              </div>
+            ) : (
+              <h1 className=' text-white font-black text-lg text-shadow-modal'>
+                {subtitle}
+              </h1>
+            )}
+          </div>
           <TransformWrapper wrapperClass={'rounded-lg'}>
             <TransformComponent contentClass={'rounded-lg'}>
               <img className='rounded-lg' src={img} alt='' />

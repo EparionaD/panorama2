@@ -68,7 +68,7 @@ export const places = [
   {
     id: 9,
     title: 'PLAT-299',
-    subtitle: 'PLAT-299 Plataforma remediada',
+    subtitle: 'Plataforma remediada',
     img: 'https://res.cloudinary.com/eparionad/image/upload/v1658249297/Pukaqaqa/plat299_k8wd13.jpg',
     x: 398,
     y: 441,
@@ -76,7 +76,7 @@ export const places = [
   {
     id: 9,
     title: 'PLAT-248',
-    subtitle: 'PLAT-248 Plataforma remediada',
+    subtitle: 'Plataforma remediada',
     img: 'https://res.cloudinary.com/eparionad/image/upload/v1658249296/Pukaqaqa/plat248_degmw5.jpg',
     x: 739,
     y: 274,
@@ -84,7 +84,7 @@ export const places = [
   {
     id: 10,
     title: 'PLAT-241',
-    subtitle: 'PLAT-241 Plataforma remediada',
+    subtitle: 'Plataforma remediada',
     img: 'https://res.cloudinary.com/eparionad/image/upload/v1658249295/Pukaqaqa/plat241_rhzmcd.jpg',
     x: 896,
     y: 283,
@@ -92,7 +92,7 @@ export const places = [
   {
     id: 11,
     title: 'PLAT-240',
-    subtitle: 'PLAT-240 Plataforma remediada',
+    subtitle: 'Plataforma remediada',
     img: 'https://res.cloudinary.com/eparionad/image/upload/v1658249295/Pukaqaqa/plat240_fnovti.jpg',
     x: 996,
     y: 270,
