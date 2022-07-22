@@ -13,7 +13,7 @@ const Modal = ({ img, title, subtitle, isOpen, closeModal }) => {
           >
             X
           </button>
-          <div className='flex flex-col absolute top-3 left-3 z-50'>
+          <div className='flex flex-col absolute top-3 left-3 z-40'>
             {title.startsWith('PLAT') ? (
               <div>
                 <h1 className=' text-white font-black text-lg text-shadow-modal'>
@@ -24,7 +24,7 @@ const Modal = ({ img, title, subtitle, isOpen, closeModal }) => {
                 </h1>
               </div>
             ) : (
-              <h1 className=' text-white font-black text-lg text-shadow-modal'>
+              <h1 className=' text-white font-black text-lg text-shadow-modal w-7/12'>
                 {subtitle}
               </h1>
             )}
