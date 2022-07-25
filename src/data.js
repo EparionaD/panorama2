@@ -1,8 +1,8 @@
 export const places = [
   {
     id: 1,
-    title: 'Otra labor',
-    subtitle: 'Otra labor',
+    title: 'Otra labor Ecohñan',
+    subtitle: 'Otra labor Ecohñan',
     img: 'https://res.cloudinary.com/eparionad/image/upload/v1658249296/Pukaqaqa/otraLabor_farlse.jpg',
     x: 314,
     y: 278,
