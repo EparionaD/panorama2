@@ -20,7 +20,7 @@ const Point = ({ x, y, title, subtitle, img }) => {
           animation={'fade'}
           html={
             <div className='bg-black opacity-60 px-3 py-2 rounded-md'>
-              <div className='text-white font-bold text-base w-3/6'>
+              <div className='text-white font-bold text-base w-3/5'>
                 {title}
               </div>
             </div>
